@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    object-fit: cover;
+}
+
+.div1 {
+    width: 40%;
+}
+
+.div1 img {
+    width: 100%;
+}
+
+.div2 {
+    width: 20%;
+}
+
+.div1 img,
+.div2 {
+    height: 620px;
+}
+
+.thirst {
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/8cc4cc79b3e85baf8723f998/pexelsphoto1639563.jpeg");
+    background-size: cover;
+}
+
+.card1 {
+    width: 330px;
+    height: 340px;
+    background-color: black;
+    border: 8px solid rgb(255, 193, 7);
+}
+
+.card21 {
+    width: 330px;
+    height: 340px;
+
+}
+
+.main2 {
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/808f86fbe4b25bd1830f78a5/pexelsphoto842142.jpeg");
+    background-size: cover;
+    height: 700px;
+}
+
+.main2 div {
+    padding-top: 500px;
+}
+
+.main3 img {
+    height: 500px;
+}
+
+.buttons button {
+    background: none;
+    border: none;
+    color: rgb(255, 193, 7);
+    padding: 10px;
+    font-size: 25px;
+}
+
+.buttons button :hover {
+    cursor: pointer;
+}
+
+.spec button {
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: rgb(255, 193, 7);
+}
+
+.navbar1 {
+    background-color: #000;
+}
+
+.navbar1 img {
+    height: 100px;
+}
+
+.navbar1 button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 0 17px;
+    font-weight: bold;
+}
+
+.navbar1 button:focus {
+    color: gray;
+}
+
+.navbar1 button:hover {
+    color: gray;
+}
+
+.carusel {
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+}
+
+.change {
+    width: 200%;
+    height: 100%;
+    animation: name 10s infinite;
+}
+
+.div1 {
+    background: center/cover url("https://myday.uz/userfiles/1818/images/wer1.png");
+}
+
+.div2 {
+    background: center/cover url("https://cdn.motor1.com/images/mgl/G322b1/s3/2023-mercedes-benz-eqs-580-suv.webp");
+}
+
+.div1,
+.div2 {
+    width: 100%;
+    height: 100vh;
+}
+
+@keyframes name {
+
+    0%,
+    100%,
+    45% {
+        transform: translateX(0px);
+    }
+
+    50%,
+    90% {
+        transform: translateX(-50%);
+
+    }
+}
+
+.fil-btn button {
+    background: none;
+    border: none;
+    color: gray;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.ftCard button {
+    width: 65px;
+    height: 65px;
+    background: none;
+    border: 2px solid gray;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+}
+
+.ftCard {
+    transition: .1s all;
+}
+
+.ftCard:hover {
+    background-color: white;
+    color: black;
+}
+
+.ftCard:hover i {
+    color: black;
+}
+
+.ft-card1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), transparent), center/cover url("https://i.pinimg.com/originals/e9/12/fb/e912fb6292a219019b0aeaecb714e5a5.jpg");
+}
+
+.ft-card2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), transparent), center/cover url("https://i.pinimg.com/originals/e9/12/fb/e912fb6292a219019b0aeaecb714e5a5.jpg");
+}
+
+.ft-card3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), transparent), center/cover url("https://i.pinimg.com/originals/e9/12/fb/e912fb6292a219019b0aeaecb714e5a5.jpg");
+
+}
+
+.ft-card1,
+.ft-card2,
+.ft-card3 {
+    width: 33.3%;
+    padding-top: 22%;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.ftcardsMain button {
+    background: white;
+    color: black;
+    padding: 6px 23px;
+    border: none;
+}
+
+.maintop {
+    width: 100%;
+    position: fixed;
+}
